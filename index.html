@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subrata Karmakar - Biosketch</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: linear-gradient(to right, #ff6f61, #de4463);
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77a6b6 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header ul li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .showcase {
+            min-height: 250px;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            text-align: center;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        .showcase h1 {
+            font-size: 55px;
+            margin-bottom: 10px;
+            animation: flash 3s infinite;
+        }
+        .showcase p {
+            font-size: 20px;
+        }
+        @keyframes flash {
+            0% { opacity: 1; }
+            50% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        .bio {
+            padding: 15px;
+            margin: 15px 0;
+            background: #fff;
+            box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+        }
+        footer {
+            padding: 20px;
+            margin-top: 20px;
+            color: #fff;
+            background-color: #333;
+            text-align: center;
+        }
+        .profile-image {
+            position: absolute;
+            top: 5px;
+            right: 20px;
+            width: 180px;
+            border-radius: 10%;
+            border: 5px solid #fff;
+            box-shadow: 0px 0px 20px rgba(0,0,0,0.3);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Subrata Karmakar</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="research.html">Research</a></li>
+                    <li><a href="publications.html">Publications</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="showcase">
+        <div class="container">
+            <h1>Welcome to My Personal Webpage</h1>
+            <p>PhD Student in Electrical Engineering at IIT Madras</p>
+            <img src="SUBRATA_PHOTO.jpg" alt="Subrata Karmakar" class="profile-image">
+        </div>
+    </section>
+
+    <div class="container">
+        <section class="bio">
+            <h2>About Me</h2>
+            <p>Hi, I'm Subrata Karmakar, a PhD student in the Department of Electrical Engineering at IIT Madras. My research focuses on [brief description of your research interests]. I am passionate about [mention any specific areas within electrical engineering or any other interests].</p>
+            <p>I have been involved in various projects and publications throughout my academic career. Please explore the rest of my website to learn more about my work and achievements.</p>
+        </section>
+        <section class="bio">
+            <h2>My Recent Publication</h2>
+            <img src="SUBRATA_PHOTO.jpg">
+            <p>I have been involved in various projects and publications throughout my academic career. Please explore the rest of my website to learn more about my work and achievements.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>(c)Subrata Karmakar | PhD Student | Electrical Engineering, IIT Madras</p>
+    </footer>
+</body>
+</html>
+
